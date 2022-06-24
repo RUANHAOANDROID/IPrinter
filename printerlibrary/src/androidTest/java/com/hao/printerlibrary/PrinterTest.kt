@@ -3,11 +3,11 @@ package com.hao.printerlibrary
 import android.content.Context
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
+import com.hao.printerlibrary.sunmi.SunmiPrintProvider
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import com.hao.printerlibrary.IPrintProvider as IPrintProvider1
 
 /**
  * printer test

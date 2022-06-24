@@ -2,6 +2,7 @@ package com.hao.printerlibrary
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
+import com.hao.printerlibrary.sunmi.SunmiPrintProvider
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -16,7 +17,8 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        val mPrinter: IPrintProvider = SunmiPrintProvider(appContext)
+        val mPrinter: IPrintProvider =
+            SunmiPrintProvider(appContext)
         Thread.sleep(5000)
         mPrinter.initPrinter(0,0,0,0)
         mPrinter.addText("HH---------为啥\n sfewfaefaeewafewafewafewafewf", 1, 15)

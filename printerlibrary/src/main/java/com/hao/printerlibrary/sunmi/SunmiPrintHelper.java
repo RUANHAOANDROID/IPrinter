@@ -1,10 +1,9 @@
-package com.hao.printerlibrary;
+package com.hao.printerlibrary.sunmi;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.RemoteException;
-import android.widget.Toast;
 
 import com.hao.printerlibrary.utils.ESCUtil;
 import com.sunmi.peripheral.printer.ExceptionConst;

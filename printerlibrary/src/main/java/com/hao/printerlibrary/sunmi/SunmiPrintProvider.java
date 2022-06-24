@@ -1,8 +1,10 @@
-package com.hao.printerlibrary;
+package com.hao.printerlibrary.sunmi;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
+
+import com.hao.printerlibrary.IPrintProvider;
 
 
 public class SunmiPrintProvider implements IPrintProvider {
