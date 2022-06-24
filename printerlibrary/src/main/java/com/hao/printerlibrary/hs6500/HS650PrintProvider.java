@@ -16,7 +16,14 @@ public class HS650PrintProvider implements IPrintProvider {
     private static final String TAG = "HS650PrintProvider";
     private Printer printer;
 
-
+    /**
+     *
+     * @param prnBaudRate 波特率 115200
+     * @param prnPort     端口    1
+     * @param prnType     打印类型（650 or 550 or sunmi or LANDI or HI98 or more）
+     * @param feedLine    走纸行数
+     * @return
+     */
     @Override
     public boolean initPrinter(int prnBaudRate, int prnPort, int prnType, int feedLine) {
         boolean result;
